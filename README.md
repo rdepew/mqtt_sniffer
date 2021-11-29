@@ -91,3 +91,9 @@ python3 mqtt_sniffer.py -i 45.33.105.244 -N Z9-PE2_3732
 * `recv_image_via_mqtt.py` - a snippet of code that saves a binary file sent
   using plain vanilla MQTT, not Sparkplug B.
 
+## What's this 'tahu' directory?
+
+The 'tahu' directory has a small number of files copied from the Eclipse Tahu
+project (see https://github.com/eclipse/tahu). I don't need everything in the
+tahu repository, only the protobufs definitions and the Python files. Thanks
+to the great project team at Eclipse Tahu.
