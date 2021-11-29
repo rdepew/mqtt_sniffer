@@ -285,5 +285,5 @@ if __name__ == '__main__':
                 sleep(.1)
                 mqttClient.loop()
     except KeyboardInterrupt:
-        print("Stopped", sys.argv[0], "gracefully")
+        print("\nStopped", sys.argv[0], "gracefully")
 
