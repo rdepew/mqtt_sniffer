@@ -222,7 +222,7 @@ def decode_ncmd(pl, nodename):
 ##### Main part of program #####
 
 def usage():
-    print('chiliverde.py <options>')
+    print('python3 mqtt_sniffer.py <options>')
     print('Options:')
     print('-h or --help                       : print this message')
     print('-i <ipaddr> or --brokerip <ipaddr> : specify MQTT broker IP address')
